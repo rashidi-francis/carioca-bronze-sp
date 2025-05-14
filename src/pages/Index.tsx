@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -78,7 +77,7 @@ const Index = () => {
     <div className="min-h-screen bg-[#FDF8F3]">
       {/* Hero Section */}
       <section className="relative h-screen flex items-center justify-center bg-gradient-to-b from-[#FDE1D3] to-[#FDF8F3]">
-        <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1500375592092-40eb2168fd21?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.0.3')] bg-cover bg-center opacity-20"></div>
+        <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1532453288672-3a27e9be9efd?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.0.3')] bg-cover bg-center opacity-20"></div>
         <div className="container mx-auto px-4 z-10 text-center">
           <h1 className="text-4xl md:text-6xl font-bold mb-4 text-[#333] animate-fade-in" style={{textShadow: "2px 2px 4px rgba(0,0,0,0.1)"}}>
             Bronzeamento Artificial no Centro de São Paulo
@@ -119,7 +118,7 @@ const Index = () => {
             </div>
             <div className="md:w-1/2 rounded-lg overflow-hidden shadow-xl" data-aos="fade-left">
               <img 
-                src="https://images.unsplash.com/photo-1482881497185-d4a9ddbe4151?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3" 
+                src="https://images.unsplash.com/photo-1610021685072-38fcab324360?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3" 
                 alt="Cabine profissional de bronzeamento" 
                 className="w-full h-auto object-cover"
               />
@@ -155,7 +154,7 @@ const Index = () => {
             </div>
             <div className="md:w-1/2 rounded-full overflow-hidden shadow-xl border-4 border-amber-200" data-aos="fade-right">
               <img 
-                src="https://images.unsplash.com/photo-1649972904349-6e44c42644a7?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3" 
+                src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3" 
                 alt="Manu, especialista em bronzeamento" 
                 className="w-full h-auto object-cover"
               />
