@@ -55,7 +55,7 @@ const Index = () => {
   const [isVisible, setIsVisible] = useState(false);
 
   const handleWhatsAppClick = () => {
-    window.open("https://wa.me/5521000000000", "_blank");
+    window.open("https://api.whatsapp.com/send?phone=5511940869224&text=Ol%C3%A1%20vim%20do%20site,%20*Bronze%20Carioca%20em%20SP*%20%20gostaria%20agendar%20sess%C3%A3o%20de%20bronzeamento%20artificial...", "_blank");
     toast("Abrindo WhatsApp", {
       description: "Vamos agendar seu bronzeamento!",
     });
@@ -255,7 +255,7 @@ const Index = () => {
               <ul className="space-y-2">
                 <li className="flex items-center">
                   <MessageCircle className="h-5 w-5 mr-2 text-amber-400" />
-                  <span>WhatsApp: (21) 00000-0000</span>
+                  <span>WhatsApp: (11) 94086-9224</span>
                 </li>
                 <li className="flex items-center">
                   <Instagram className="h-5 w-5 mr-2 text-amber-400" />
@@ -266,8 +266,8 @@ const Index = () => {
             <div>
               <h3 className="text-xl font-bold mb-4 border-l-4 border-amber-400 pl-4">Endereço</h3>
               <p>Centro de São Paulo - SP</p>
-              <p>Próximo ao metrô República</p>
-              <p className="mt-2">(Endereço completo enviado após agendamento)</p>
+              <p>Próximo ao metrô da Sé e da República</p>
+              <p className="mt-2">Endereço: Rua Praça da Sé, 21</p>
             </div>
             <div>
               <h3 className="text-xl font-bold mb-4 border-l-4 border-amber-400 pl-4">Horário de Funcionamento</h3>
