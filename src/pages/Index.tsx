@@ -158,7 +158,7 @@ const Index = () => {
             </div>
             <div className="md:w-1/2 rounded-full overflow-hidden shadow-xl border-4 border-amber-200" data-aos="fade-right">
               <img 
-                src="https://images.unsplash.com/photo-1624454002302-36b812a2b1e8?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3" 
+                src="/imagesupload/house-manager.webp" 
                 alt="Manu, especialista em bronzeamento" 
                 className="w-full h-auto object-cover"
               />
