@@ -78,7 +78,10 @@ const Index = () => {
     <div className="min-h-screen bg-[#FDF8F3]">
       {/* Hero Section */}
       <section className="relative h-screen flex items-center justify-center bg-gradient-to-b from-[#FDE1D3] to-[#FDF8F3]">
-        <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.0.3')] bg-cover bg-center opacity-20"></div>
+        <div
+  className="absolute inset-0 bg-cover bg-center opacity-20"
+  style={{ backgroundImage: "url('/imagesupload/bronze-website-banner-image.webp')" }}
+></div>
         <div className="container mx-auto px-4 z-10 text-center">
           <h1 className="text-4xl md:text-6xl font-bold mb-4 text-[#333] animate-fade-in" style={{textShadow: "2px 2px 4px rgba(0,0,0,0.1)"}}>
             Bronzeamento Artificial no Centro de São Paulo
@@ -256,10 +259,6 @@ const Index = () => {
                 <li className="flex items-center">
                   <MessageCircle className="h-5 w-5 mr-2 text-amber-400" />
                   <span>WhatsApp: (11) 94086-9224</span>
-                </li>
-                <li className="flex items-center">
-                  <Facebook className="h-5 w-5 mr-2 text-amber-400" />
-                  <span>Facebook: facebook.com/bronzecariocasp</span>
                 </li>
                 <li className="flex items-center">
                   <Instagram className="h-5 w-5 mr-2 text-amber-400" />
