@@ -140,7 +140,7 @@ const Index = () => {
                 Quem é Manu? A carioca que trouxe o bronze raiz para o Centro de SP
               </h2>
               <p className="text-lg mb-4 text-[#555]">
-                Emanuelle, ou simplesmente Manu como é carinhosamente conhecida, é carioca da gema e trouxe para São Paulo toda a experiência e paixão pelo bronze perfeito.
+                Manuela, ou simplesmente Manu como é carinhosamente conhecida, é carioca da gema e trouxe para São Paulo toda a experiência e paixão pelo bronze perfeito.
               </p>
               <p className="text-lg mb-6 text-[#555]">
                 Especialista em marquinhas estilo carioca, Manu combina profissionalismo com o carisma típico do Rio, criando uma experiência única de atendimento e resultados impressionantes para suas clientes.
