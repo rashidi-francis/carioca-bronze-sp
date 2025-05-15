@@ -122,7 +122,7 @@ const Index = () => {
             </div>
             <div className="md:w-1/2 rounded-lg overflow-hidden shadow-xl" data-aos="fade-left">
               <img 
-                src="https://images.unsplash.com/photo-1592554119834-951db21673c4?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3" 
+                src="/imagesupload/bronze-foto1.webp" 
                 alt="Cabine profissional de bronzeamento" 
                 className="w-full h-auto object-cover"
               />
