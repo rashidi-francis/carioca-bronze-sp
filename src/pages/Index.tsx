@@ -310,23 +310,23 @@ const Index = () => {
             
             <div className="lg:w-1/2 grid grid-cols-2 gap-4">
               <img 
-                src="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=400&h=300&fit=crop" 
-                alt="Ambiente do estúdio feminino" 
+                src="/imagesupload/espaco-porta.jpeg" 
+                alt="Porta de entrada do estúdio Bronze Manu Carioca" 
                 className="rounded-2xl shadow-lg w-full h-48 object-cover"
               />
               <img 
-                src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=400&h=300&fit=crop" 
-                alt="Decoração rosa do estúdio" 
+                src="/imagesupload/espaco-recepcao.jpeg" 
+                alt="Recepção do estúdio com decoração verde" 
                 className="rounded-2xl shadow-lg w-full h-48 object-cover mt-8"
               />
               <img 
-                src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=400&h=300&fit=crop" 
-                alt="Produtos de bronzeamento" 
+                src="/imagesupload/espaco-produtos.jpeg" 
+                alt="Mesa de produtos para bronzeamento" 
                 className="rounded-2xl shadow-lg w-full h-48 object-cover"
               />
               <img 
-                src="https://images.unsplash.com/photo-1596178060671-7a80dc8059ea?w=400&h=300&fit=crop" 
-                alt="Ambiente spa feminino" 
+                src="/imagesupload/espaco-cabine.jpeg" 
+                alt="Cabine de bronzeamento com lâmpadas UV" 
                 className="rounded-2xl shadow-lg w-full h-48 object-cover mt-8"
               />
             </div>
