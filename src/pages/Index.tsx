@@ -88,8 +88,10 @@ const benefits = [
 const Index = () => {
   const [isVisible, setIsVisible] = useState(false);
 
+  const whatsappLink = "https://wa.me/5511940869224?text=Oi,%20vim%20do%20site.%20Quero%20agendar%20uma%20sessão%20de%20bronze%20artificial,%20pra%20fazer%20uma%20marquinha%20bem%20top";
+
   const handleWhatsAppClick = () => {
-    window.open("https://api.whatsapp.com/send?phone=5511940869224&text=Ol%C3%A1%20vim%20do%20site,%20*Bronze%20Carioca%20em%20SP*%20%20gostaria%20agendar%20sess%C3%A3o%20de%20bronzeamento%20artificial...", "_blank");
+    window.open(whatsappLink, "_blank");
     toast("Abrindo WhatsApp", {
       description: "Vamos agendar seu bronzeamento!",
     });
@@ -475,9 +477,16 @@ const Index = () => {
             <div>
               <h3 className="text-xl font-bold mb-4 border-l-4 border-primary pl-4">Contato</h3>
               <ul className="space-y-3">
-                <li className="flex items-center">
-                  <Phone className="h-5 w-5 mr-3 text-primary" />
-                  <span>WhatsApp: (11) 94086-9224</span>
+                <li>
+                  <a 
+                    href="https://wa.me/5511940869224?text=Oi,%20vim%20do%20site.%20Quero%20agendar%20uma%20sessão%20de%20bronze%20artificial,%20pra%20fazer%20uma%20marquinha%20bem%20top"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center hover:text-primary transition-colors"
+                  >
+                    <Phone className="h-5 w-5 mr-3 text-primary" />
+                    <span>WhatsApp: (11) 94086-9224</span>
+                  </a>
                 </li>
                 <li className="flex items-center">
                   <Instagram className="h-5 w-5 mr-3 text-primary" />
