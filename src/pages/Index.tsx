@@ -112,11 +112,11 @@ const Index = () => {
     return () => window.removeEventListener("scroll", toggleVisibility);
   }, []);
 
-  // Mostrar badge de notificação após 5 segundos
+  // Mostrar badge de notificação após 10 segundos
   useEffect(() => {
     const timer = setTimeout(() => {
       setShowBadge(true);
-    }, 5000);
+    }, 10000);
     return () => clearTimeout(timer);
   }, []);
 
