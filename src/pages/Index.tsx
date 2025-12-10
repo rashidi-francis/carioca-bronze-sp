@@ -197,8 +197,8 @@ const Index = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="group relative rounded-3xl overflow-hidden shadow-xl">
               <img 
-                src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=500&h=600&fit=crop" 
-                alt="Mulher relaxando na praia" 
+                src="/imagesupload/resultado-costas.png" 
+                alt="Resultado marquinha nas costas com bronze dourado" 
                 className="w-full h-80 object-cover group-hover:scale-110 transition-transform duration-500"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-primary/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
@@ -219,8 +219,8 @@ const Index = () => {
             
             <div className="group relative rounded-3xl overflow-hidden shadow-xl">
               <img 
-                src="https://images.unsplash.com/photo-1473496169904-658ba7c44d8a?w=500&h=600&fit=crop" 
-                alt="Mulher na piscina" 
+                src="/imagesupload/resultado-colo.jpg" 
+                alt="Resultado marquinha no colo com bronze dourado" 
                 className="w-full h-80 object-cover group-hover:scale-110 transition-transform duration-500"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-primary/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
