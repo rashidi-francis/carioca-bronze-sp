@@ -3,27 +3,35 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { toast } from "@/components/ui/sonner";
 import { MessageCircle, Star, Heart, Sparkles, Sun, Droplets, Shield, Clock, Instagram, MapPin, Phone } from "lucide-react";
+import testimonialImg1 from "@/assets/testimonial-1.webp";
+import testimonialImg2 from "@/assets/testimonial-2.webp";
+import testimonialImg3 from "@/assets/testimonial-3.webp";
+import testimonialImg4 from "@/assets/testimonial-4.webp";
 
 const testimonials = [
   {
-    name: "Juliana M.",
-    comment: "Minha marquinha ficou perfeita! Agora posso arrasar na praia sem medo. A Manu é incrível!",
+    handle: "@id_japah",
+    comment: "Gente simplesmente amei!! 😍🔥 Bronze perfeito e a marquinha ficou um arraso!!",
     stars: 5,
+    image: testimonialImg1,
   },
   {
-    name: "Rafaela S.",
-    comment: "Ambiente super feminino e acolhedor. Me senti em casa! O bronze ficou natural e lindo.",
+    handle: "@mayarasabino42",
+    comment: "Melhor bronze que já fiz na vida!! Super recomendo 💕✨",
     stars: 5,
+    image: testimonialImg2,
   },
   {
-    name: "Camila R.",
-    comment: "Finalmente um lugar que entende o que a gente quer! Marquinha definida e sem manchas.",
+    handle: "@tthata_morena",
+    comment: "A Manu é maravilhosa!! Já vou marcar de novo pq viciei 🥰☀️",
     stars: 5,
+    image: testimonialImg3,
   },
   {
-    name: "Beatriz T.",
-    comment: "Já virei cliente fiel! Sempre saio com a pele dourada e pronta pra arrasar no verão.",
+    handle: "@cbbeatryz",
+    comment: "Minha pele ficou DIVA!! Amei demais o resultado 💛🌴",
     stars: 5,
+    image: testimonialImg4,
   },
 ];
 
@@ -416,19 +424,25 @@ const Index = () => {
             </h2>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             {testimonials.map((testimonial, index) => (
-              <Card key={index} className="border-none shadow-lg hover:shadow-xl transition-shadow duration-300 bg-card">
-                <CardContent className="pt-6 pb-6">
-                  <div className="flex mb-4">
+              <div key={index} className="relative rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 group">
+                <img 
+                  src={testimonial.image} 
+                  alt={`Depoimento de ${testimonial.handle}`}
+                  className="w-full aspect-[9/16] object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
+                <div className="absolute bottom-0 left-0 right-0 p-4 text-white">
+                  <p className="text-sm mb-2">{testimonial.comment}</p>
+                  <div className="flex mb-2">
                     {[...Array(testimonial.stars)].map((_, i) => (
-                      <Star key={i} className="h-5 w-5 fill-primary text-primary" />
+                      <Star key={i} className="h-4 w-4 fill-yellow-400 text-yellow-400" />
                     ))}
                   </div>
-                  <p className="text-muted-foreground mb-4 italic">"{testimonial.comment}"</p>
-                  <p className="font-semibold text-foreground">{testimonial.name}</p>
-                </CardContent>
-              </Card>
+                  <p className="font-bold text-sm">{testimonial.handle}</p>
+                </div>
+              </div>
             ))}
           </div>
         </div>
