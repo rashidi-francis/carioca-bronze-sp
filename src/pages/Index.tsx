@@ -542,7 +542,7 @@ const Index = () => {
           
           {/* Badge de notificação - incrementa a cada 10 segundos */}
           {badgeCount > 0 && (
-            <span className="absolute -top-1 right-0 bg-red-500 text-white text-xs font-bold min-w-5 h-5 px-1 rounded-full flex items-center justify-center border-2 border-white z-20 animate-scale-in">
+            <span className="absolute -top-1 right-0 bg-red-500 text-white text-xs font-bold min-w-5 h-5 px-1 rounded-full flex items-center justify-center border-2 border-white z-20 animate-pulse">
               {badgeCount}
             </span>
           )}
