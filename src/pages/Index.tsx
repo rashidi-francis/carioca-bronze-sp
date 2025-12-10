@@ -328,26 +328,26 @@ const Index = () => {
               </Button>
             </div>
             
-            <div className="lg:w-1/2 grid grid-cols-2 gap-4">
+            <div className="lg:w-1/2 grid grid-cols-2 gap-3 md:gap-4 w-full">
               <img 
                 src="/imagesupload/espaco-porta.jpeg" 
                 alt="Porta de entrada do estúdio Bronze Manu Carioca" 
-                className="rounded-2xl shadow-lg w-full h-48 object-cover"
+                className="rounded-2xl shadow-lg w-full h-40 sm:h-48 md:h-56 object-cover"
               />
               <img 
                 src="/imagesupload/espaco-recepcao.jpeg" 
                 alt="Recepção do estúdio com decoração verde" 
-                className="rounded-2xl shadow-lg w-full h-48 object-cover mt-8"
+                className="rounded-2xl shadow-lg w-full h-40 sm:h-48 md:h-56 object-cover mt-6 md:mt-8"
               />
               <img 
                 src="/imagesupload/espaco-produtos.jpeg" 
                 alt="Mesa de produtos para bronzeamento" 
-                className="rounded-2xl shadow-lg w-full h-48 object-cover"
+                className="rounded-2xl shadow-lg w-full h-40 sm:h-48 md:h-56 object-cover"
               />
               <img 
                 src="/imagesupload/espaco-cabine.jpeg" 
                 alt="Cabine de bronzeamento com lâmpadas UV" 
-                className="rounded-2xl shadow-lg w-full h-48 object-cover mt-8"
+                className="rounded-2xl shadow-lg w-full h-40 sm:h-48 md:h-56 object-cover mt-6 md:mt-8"
               />
             </div>
           </div>
