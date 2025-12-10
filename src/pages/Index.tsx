@@ -88,7 +88,7 @@ const benefits = [
 
 const Index = () => {
   const [isVisible, setIsVisible] = useState(false);
-  const [showBadge, setShowBadge] = useState(false);
+  const [badgeCount, setBadgeCount] = useState(0);
 
   const whatsappLink = "https://wa.me/5511940869224?text=Oi,%20vim%20do%20site.%20Quero%20agendar%20uma%20sessão%20de%20bronze%20artificial,%20pra%20fazer%20uma%20marquinha%20bem%20top";
 
@@ -112,12 +112,12 @@ const Index = () => {
     return () => window.removeEventListener("scroll", toggleVisibility);
   }, []);
 
-  // Mostrar badge de notificação após 10 segundos
+  // Incrementar badge de notificação a cada 10 segundos
   useEffect(() => {
-    const timer = setTimeout(() => {
-      setShowBadge(true);
+    const interval = setInterval(() => {
+      setBadgeCount(prev => prev + 1);
     }, 10000);
-    return () => clearTimeout(timer);
+    return () => clearInterval(interval);
   }, []);
 
   return (
@@ -540,10 +540,10 @@ const Index = () => {
             className="absolute -top-3 -left-3 w-10 h-10 rounded-full object-cover border-2 border-white shadow-md z-10"
           />
           
-          {/* Badge de notificação - aparece após 5 segundos */}
-          {showBadge && (
-            <span className="absolute -top-1 right-0 bg-red-500 text-white text-xs font-bold w-5 h-5 rounded-full flex items-center justify-center border-2 border-white z-20 animate-scale-in">
-              1
+          {/* Badge de notificação - incrementa a cada 10 segundos */}
+          {badgeCount > 0 && (
+            <span className="absolute -top-1 right-0 bg-red-500 text-white text-xs font-bold min-w-5 h-5 px-1 rounded-full flex items-center justify-center border-2 border-white z-20 animate-scale-in">
+              {badgeCount}
             </span>
           )}
           
