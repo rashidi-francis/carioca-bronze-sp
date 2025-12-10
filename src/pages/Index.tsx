@@ -29,7 +29,7 @@ const testimonials = [
   },
   {
     handle: "@cbbeatryz",
-    comment: "Minha pele ficou DIVA!! Amei demais o resultado 💛🌴",
+    comment: "Minha marquinha ficou DIVA!! Amei demais o resultado 💛🌴",
     stars: 5,
     image: testimonialImg4,
   },
