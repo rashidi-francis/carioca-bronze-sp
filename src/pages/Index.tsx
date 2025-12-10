@@ -145,8 +145,8 @@ const Index = () => {
               <div className="space-y-4">
                 <div className="rounded-2xl overflow-hidden shadow-lg transform hover:scale-105 transition-transform duration-300">
                   <img 
-                    src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=400&h=500&fit=crop" 
-                    alt="Mulher na praia exibindo bronze" 
+                    src="/imagesupload/bronze-foto1.webp" 
+                    alt="Resultado de marquinha de bronzeamento na cintura" 
                     className="w-full h-64 object-cover"
                   />
                 </div>
