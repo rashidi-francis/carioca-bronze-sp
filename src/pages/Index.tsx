@@ -7,6 +7,7 @@ import testimonialImg1 from "@/assets/testimonial-1.webp";
 import testimonialImg2 from "@/assets/testimonial-2.webp";
 import testimonialImg3 from "@/assets/testimonial-3.webp";
 import testimonialImg4 from "@/assets/testimonial-4.webp";
+import atendenteImg from "@/assets/atendente.webp";
 
 const testimonials = [
   {
@@ -522,12 +523,24 @@ const Index = () => {
       <div 
         className={`fixed ${isVisible ? 'opacity-100' : 'opacity-0'} bottom-6 right-6 z-50 transition-opacity duration-300`}
       >
-        <Button
+        <button
           onClick={handleWhatsAppClick}
-          className="rounded-full w-16 h-16 bg-green-500 hover:bg-green-600 shadow-lg flex items-center justify-center animate-float"
+          className="relative flex items-center gap-2 bg-green-500 hover:bg-green-600 text-white rounded-full pl-2 pr-4 py-2 shadow-lg animate-float transition-colors"
         >
-          <MessageCircle className="h-8 w-8" />
-        </Button>
+          {/* Foto da atendente */}
+          <div className="relative">
+            <img 
+              src={atendenteImg} 
+              alt="Atendente" 
+              className="w-12 h-12 rounded-full object-cover border-2 border-white"
+            />
+            {/* Badge de notificação */}
+            <span className="absolute -top-1 -right-1 bg-red-500 text-white text-xs font-bold w-5 h-5 rounded-full flex items-center justify-center border-2 border-white">
+              1
+            </span>
+          </div>
+          <MessageCircle className="h-6 w-6" />
+        </button>
       </div>
     </div>
   );
