@@ -168,8 +168,8 @@ const Index = () => {
                 </div>
                 <div className="rounded-2xl overflow-hidden shadow-lg transform hover:scale-105 transition-transform duration-300">
                   <img 
-                    src="https://images.unsplash.com/photo-1519046904884-53103b34b206?w=400&h=500&fit=crop" 
-                    alt="Mulher na piscina com bronze" 
+                    src="/imagesupload/marquinha-posterior.jpeg" 
+                    alt="Resultado marquinha posterior com bronze dourado" 
                     className="w-full h-64 object-cover"
                   />
                 </div>
